@@ -10,10 +10,7 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
+- [Documentation]
   - [Server Setup](#1-server-setup)
   - [Routing](#2-routing)
   - [Authentication](#3-authentication)
