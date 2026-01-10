@@ -22,11 +22,6 @@
   - [Database (SQL)](#6-database-sql)
   - [Cryptography](#7-cryptography)
   - [Request Data](#8-request-data)
-- [Examples](#examples)
-- [Security](#security)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## 🎯 Overview
