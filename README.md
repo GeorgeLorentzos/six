@@ -213,7 +213,7 @@ routeGet("/profile") {
 
 ```cpp
 routeGet("/posts") {
-    auto posts_list = six_sql_exec("SELECT * FROM posts");
+    auto posts_list = six_sql_query_all("posts");
     
     vars ctx;
     if (!posts_list.empty()) {
@@ -302,8 +302,15 @@ if (!user.empty()) {
 auto results = six_sql_exec("SELECT * FROM posts WHERE user_id = 1");
 ```
 
+#### **Query All Records**
+
+```cpp
+auto posts = six_sql_query_all("posts");
+```
+
 **SQL Functions:**
 - `six_sql_exec(query)` - Execute any SQL query
+- `six_sql_query_all(table)` - Get all records from a table
 - `six_sql_insert(table, data)` - Insert data into a table
 - `six_sql_find_by(table, column, value)` - Find a record by column value
 - `six_sql_commit()` - Commit database changes
