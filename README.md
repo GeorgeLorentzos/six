@@ -10,7 +10,7 @@
 
 ## 📋 Table of Contents
 
-- [Documentation]
+- Documentation
   - [Server Setup](#1-server-setup)
   - [Routing](#2-routing)
   - [Authentication](#3-authentication)
