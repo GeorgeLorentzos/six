@@ -46,7 +46,7 @@
 ## 🚀 Quick Start
 
 ```cpp
-#include "six.h"
+#include "six/six.h"
 
 int main() {
     six server(8000); // Create server on port 8000
